@@ -1,0 +1,37 @@
+.formulario {
+    width: 300px;
+    padding: 20px;
+    border-radius:20px;
+    margin: 0 auto;
+    background: linear-gradient(#bd09b7, #6bacf5) ;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 19px 15px 17px -9px rgba(61,7,61,1);
+    gap: 6px;
+    font-family: sans-serif;
+
+}
+
+input, select {
+    padding: 7px;
+}
+
+h1, label {
+    color: #fff;
+}
+
+button {
+    width: 75px;
+    padding: 5px 15px;
+    border-radius: 12px;
+}
+
+.div-boton {
+    display: flex;
+    justify-content:flex-end;
+}
+
+button:hover {
+    color: #bd09b7;
+    cursor: pointer;
+}
